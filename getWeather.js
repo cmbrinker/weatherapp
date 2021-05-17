@@ -1,6 +1,6 @@
 const http = require('http');
 const https = require('https');
-const apiKey = `e29d833be8267adf323f05ed153a18be`; //would normal store in a separate JSON file but kept here for functionality
+const apiKey = ; //would normal store in a separate JSON file but kept here for functionality
 
 function printWeather(city, temp, currentConditions) {
   console.log(`In ${city} the temperature is ${temp}°F with ${currentConditions}`);
